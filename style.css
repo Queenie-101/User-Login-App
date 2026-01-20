@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.login-card,
+.dashboard-card {
+    background-color: white;
+    width: 350px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px black;
+    margin: 120px auto;
+    text-align: center;
+}
+
+.login-card h1,
+.dashboard-card h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-card input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 14px;
+}
+
+.login-card button {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
