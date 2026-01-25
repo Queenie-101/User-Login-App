@@ -43,7 +43,7 @@ body {
 }
 
 /*Reset*/
-. {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -135,4 +135,17 @@ body {
     margin-top: 15px;
     font-size: 13px;
     color: #a87b94;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    background: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #d32f3f;
 }
